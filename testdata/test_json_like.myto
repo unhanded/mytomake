@@ -1,0 +1,13 @@
+wholenumber:      @int[20, 90];
+fracc:   @float[0.0, 1.0];
+theName:       @dict[english.names];
+noun:       @dict[english.nouns];
+verb:       @dict[english.verbs];
+adjec:  @dict[english.adjectives];
+id:          @uuid[]
+---
+{
+    "id":"@id"
+    "name": "@theName",
+    "age": "@wholenumber"
+}

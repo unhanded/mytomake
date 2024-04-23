@@ -1,2 +1,2 @@
-# mytoman
- Fictitious data generation
+# Mytomake
+Fake data but real vibes
