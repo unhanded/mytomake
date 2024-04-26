@@ -1,7 +1,7 @@
 package mytomake
 
 import (
-	"github.com/unhanded/mytoman/internal/myto_api"
+	"github.com/unhanded/mytomake/internal/myto_api"
 )
 
 type Myto struct {

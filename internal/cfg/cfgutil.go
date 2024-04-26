@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/unhanded/mytoman/internal/util"
+	"github.com/unhanded/mytomake/internal/util"
 )
 
 type ConfigItem struct {

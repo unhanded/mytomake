@@ -3,8 +3,8 @@ package swap
 import (
 	"fmt"
 
-	"github.com/unhanded/mytoman/internal/cfg"
-	"github.com/unhanded/mytoman/internal/core"
+	"github.com/unhanded/mytomake/internal/cfg"
+	"github.com/unhanded/mytomake/internal/core"
 )
 
 func Generate(tmplSection []byte, cfg cfg.MytoConfig) ([]byte, error) {

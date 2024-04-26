@@ -3,8 +3,8 @@ package myto_api
 import (
 	"os"
 
-	"github.com/unhanded/mytoman/internal/files"
-	"github.com/unhanded/mytoman/internal/swap"
+	"github.com/unhanded/mytomake/internal/files"
+	"github.com/unhanded/mytomake/internal/swap"
 )
 
 func MytoFileExec(fp string, dataDir string) (string, error) {

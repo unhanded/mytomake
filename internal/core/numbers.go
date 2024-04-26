@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/unhanded/mytoman/internal/util"
+	"github.com/unhanded/mytomake/internal/util"
 )
 
 type MytoFloat struct {

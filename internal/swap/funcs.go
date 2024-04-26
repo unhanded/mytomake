@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/unhanded/mytoman/internal/cfg"
-	"github.com/unhanded/mytoman/internal/core"
-	"github.com/unhanded/mytoman/internal/util"
+	"github.com/unhanded/mytomake/internal/cfg"
+	"github.com/unhanded/mytomake/internal/core"
+	"github.com/unhanded/mytomake/internal/util"
 )
 
 func getMyto(t string, mcfg cfg.MytoConfig) (core.Myto, error) {

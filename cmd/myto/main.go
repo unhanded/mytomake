@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/unhanded/mytoman/internal/myto_api"
-	"github.com/unhanded/mytoman/internal/util"
+	"github.com/unhanded/mytomake/internal/myto_api"
+	"github.com/unhanded/mytomake/internal/util"
 )
 
 func main() {
@@ -18,8 +18,8 @@ func main() {
 	flag.CommandLine.Usage = func() {
 		util.Banner()
 
-		fmt.Print("\tUsage: mytom -f <file>\n\n")
-		fmt.Print("\tExample: mytom -f ./message.myto\n\n")
+		fmt.Print("\tUsage: myto -f <file>\n\n")
+		fmt.Print("\tExample: myto -f ./message.myto\n\n")
 	}
 
 	flag.Parse()
