@@ -1,4 +1,4 @@
-module github.com/unhanded/mytoman
+module github.com/unhanded/mytomake
 
 go 1.22.2
 
