@@ -29,7 +29,11 @@ func main() {
 		os.Exit(1)
 	}
 
-	res := myto_api.MytoExec(filepath, dataDir)
+	res, err := myto_api.MytoFileExec(filepath, dataDir)
+
+	if err != nil {
+		panic(err)
+	}
 
 	fmt.Printf("%s\n", res)
 }
