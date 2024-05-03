@@ -9,5 +9,6 @@ id:          @uuid[]
 {
     "id":"@id"
     "name": "@theName",
+    "tendency":@fracc
     "age": "@wholenumber"
 }
